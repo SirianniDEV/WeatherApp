@@ -73,7 +73,7 @@ export default function Home() {
            animate={{ opacity: 1, y: 0 }}
            transition={{ duration: 0.8, delay: 0.2 }}>
 
-            <Typography sx={{color: "#146E57"}} variant="h5" > What's the weather like?</Typography>
+            <Typography sx={{color: "#146E57"}} variant="h5" > What&apos;s the weather like?</Typography>
             
           </motion.div>
 
