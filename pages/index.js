@@ -120,7 +120,7 @@ export default function Home() {
                   <Typography sx={{fontSize: 20, color: "#146E57" }}> {w.main} with {w.description} </Typography>
                     
                   <Typography sx={{fontSize: 20, color: "#146E57" }}>
-                    <strong>Wind Guest:</strong> {data.wind.speed.toFixed(2)} m/s  <br/>
+                    <strong>Wind Gust:</strong> {data.wind.speed.toFixed(2)} m/s  <br/>
                   </Typography>
                   <Typography sx={{fontSize: 20, color: "#146E57" }}>
                     <strong>Feels Like:</strong> {data.main.feels_like.toFixed(2)} °C 
